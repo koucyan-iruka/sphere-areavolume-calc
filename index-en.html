@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>球体表面積&体積計算機</title>
+    <title>Sphere Area & Volume Calculator</title>
     <link rel="stylesheet" href="materialize.css">
     <meta name="viewport" content="width=device-width,inital-scale">
     <link rel="icon" href="favicon.png">
@@ -14,14 +14,14 @@
         }
   </script>
   <body style="background-color: #e0ffff">
-  	<div style="width: 350px;margin: auto;">
-      <h5 class="flow-text">球体表面積＆体積を計算する計算機</h5>
-      <h6>必ず半角数字で入力してください</h6>
-     <h5>表面積</h5>
-     <p>半径(cm)</p>
+    <div style="width: 350px;margin: auto;">
+      <h5 class="flow-text">Sphere Surface Area & Volume Calculator</h5>
+      <h6>Please enter in half-width.</h6>
+    <h5>Surface Area</h5>
+    <p>Radius(cm)</p>
       <form  method="get" name="input">
       <input type="number"  id="hankei" name="x" size="10" value="">
-    <p>こたえ</p>
+    <p>Result</p>
       <output type="text" id="ans" name="answer" size="10" value="0">
       </output>
       <br>
@@ -34,11 +34,11 @@
         input2.ans2.value = (4 * Math.pow (input2.hankei2.value,3)/3)+" πcm3";
         }
   </script>
-     <h5>体積</h5>
-     <p>半径(cm)</p>
+    <h5>Volume</h5>
+    <p>Radius(cm)</p>
       <form  method="get" name="input2">
       <input type="number"  id="hankei2" name="x2" size="10" value="">
-    <p>こたえ</p>
+    <p>Result</p>
       <output type="text" id="ans2" name="answer2" size="10" value="0">
       </output>
       <br>
@@ -47,7 +47,7 @@
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <br>
-    <br>
+    <a href="index.html">日本語</a>
     <br>
       <p>V1.0.1</p>
     </div>
